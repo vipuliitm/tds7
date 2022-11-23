@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run tds.ipynb
+web: sh setup.sh && streamlit run tds.py
