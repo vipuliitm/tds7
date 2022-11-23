@@ -9,9 +9,11 @@ Original file is located at
 
 !pip install streamlit
 import streamlit as st
+import numpy as np
+
 st.write("Multiplication of Two Numbers")
 a = st.number_input("Input First Number")
 b = st.number_input("Input Second Number")
-c = a*b
-st.subheader("Multiplication of two numbers you gave is")
+c = np.multiply(a,b)
+st.subheader("Multiplication of two numbers is")
 st.write(c)
