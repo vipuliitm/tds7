@@ -1,2 +1,2 @@
 streamlit==0.76.0
-protobuff=3.20.*
+protobuff==3.20.*
