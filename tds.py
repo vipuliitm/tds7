@@ -1,5 +1,6 @@
 !pip install streamlit
 import streamlit as st
+PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 
 st.header("Multiplication of Two Numbers")
 a = st.number_input("Input First Number")
