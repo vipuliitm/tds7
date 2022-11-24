@@ -11,3 +11,5 @@ headless= true\n\
 enableCORS=true\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
+
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
