@@ -1,6 +1,7 @@
 pip install streamlit
 pip install protobuf==3.20.*
 import streamlit as st
+export PROTOCOLS_BUFFERS_PYTHON_IMPLEMENTATION = python
 
 st.header("Multiplication of Two Numbers")
 a = st.number_input("Input First Number")
