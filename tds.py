@@ -1,5 +1,5 @@
-pip install streamlit
-pip install protobuf==3.19.*
+!pip install streamlit
+#pip install protobuf==3.19.*
 import streamlit as st
 #export PROTOCOLS_BUFFERS_PYTHON_IMPLEMENTATION = python
 
