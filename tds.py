@@ -1,4 +1,5 @@
-!pip install streamlit
+pip install streamlit
+pip install protobuf==3.20.*
 import streamlit as st
 
 st.header("Multiplication of Two Numbers")
